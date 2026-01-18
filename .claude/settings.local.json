@@ -5,7 +5,9 @@
       "mcp__context7__query-docs",
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial project setup for Droid Automator\n\n- Android project with Gradle Kotlin DSL and version catalog\n- Jetpack Compose UI with Material 3 and dynamic colors\n- Hilt dependency injection\n- Room database with entities for automations and logs\n- Domain layer with extensible Trigger/Action sealed classes\n- AutomationEngine for processing notification triggers\n- NotificationListenerService for capturing notifications\n- MVVM architecture with ViewModels and StateFlow\n- Complete UI: Home, Editor, Logs, and Settings screens\n- Documentation in /docs folder\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial project setup for Droid Automator\n\n- Android project with Gradle Kotlin DSL and version catalog\n- Jetpack Compose UI with Material 3 and dynamic colors\n- Hilt dependency injection\n- Room database with entities for automations and logs\n- Domain layer with extensible Trigger/Action sealed classes\n- AutomationEngine for processing notification triggers\n- NotificationListenerService for capturing notifications\n- MVVM architecture with ViewModels and StateFlow\n- Complete UI: Home, Editor, Logs, and Settings screens\n- Documentation in /docs folder\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(gh repo create:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix Compose compiler configuration for Kotlin 1.9.x\n\nThe kotlin.compose plugin is only available in Kotlin 2.0+. For Kotlin\n1.9.x, the Compose compiler version must be configured via composeOptions\nin the android block instead.\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
