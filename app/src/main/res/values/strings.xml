@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Droid Automator</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Automations</string>
+    <string name="nav_logs">Logs</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_empty_title">No automations yet</string>
+    <string name="home_empty_subtitle">Tap + to create your first automation</string>
+    <string name="home_automation_enabled">Enabled</string>
+    <string name="home_automation_disabled">Disabled</string>
+
+    <!-- Editor Screen -->
+    <string name="editor_title_new">New Automation</string>
+    <string name="editor_title_edit">Edit Automation</string>
+    <string name="editor_name_label">Name</string>
+    <string name="editor_name_hint">My Automation</string>
+    <string name="editor_trigger_section">Trigger</string>
+    <string name="editor_action_section">Action</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_delete">Delete</string>
+
+    <!-- Trigger Types -->
+    <string name="trigger_notification">Notification Received</string>
+    <string name="trigger_notification_package">App Package</string>
+    <string name="trigger_notification_title_filter">Title Filter (optional regex)</string>
+    <string name="trigger_notification_text_filter">Text Filter (optional regex)</string>
+
+    <!-- Action Types -->
+    <string name="action_open_url">Open URL</string>
+    <string name="action_url_template">URL Template</string>
+    <string name="action_url_hint">https://example.com?param={variable}</string>
+
+    <!-- Variables -->
+    <string name="variables_title">Available Variables</string>
+    <string name="variable_notification_title">{notification_title}</string>
+    <string name="variable_notification_text">{notification_text}</string>
+    <string name="variable_notification_package">{notification_package}</string>
+    <string name="variable_parsed_amount">{parsed_amount}</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_notification_access">Notification Access</string>
+    <string name="settings_notification_access_desc">Required to capture notifications from other apps</string>
+    <string name="settings_notification_access_granted">Access granted</string>
+    <string name="settings_notification_access_denied">Tap to enable</string>
+
+    <!-- Logs Screen -->
+    <string name="logs_empty_title">No logs yet</string>
+    <string name="logs_empty_subtitle">Automation events will appear here</string>
+    <string name="logs_success">Success</string>
+    <string name="logs_failed">Failed</string>
+    <string name="logs_clear">Clear Logs</string>
+</resources>
